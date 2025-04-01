@@ -15,3 +15,8 @@ cd ansible_lab
 cd ansible_lab
 source ansible/bin/activate
 ```
+추가로 자시만의 가상환경을 만들고 싶다면 아래 명령어를 통해 만들 수 있다.
+```
+python -m venv <가상환경명>
+pip install ansible
+```
